@@ -6,7 +6,6 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import org.apache.catalina.User;
 
 import java.io.Serializable;
 import java.util.List;
@@ -17,7 +16,7 @@ import java.util.List;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class Jobseeker implements Serializable{
+public class Jobseeker implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

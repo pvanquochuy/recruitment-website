@@ -1,16 +1,15 @@
 package com.example.recruitmentweb.jobportal.domain.models;
 
-
 import com.example.recruitmentweb.jobportal.domain.enums.AuthProvider;
 import com.example.recruitmentweb.jobportal.domain.models.audit.DateAudit;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import org.antlr.v4.runtime.misc.NotNull;
 
 import java.util.HashSet;
 import java.util.List;
